@@ -1,0 +1,26 @@
+# 生成的甲方 Skill（默认不上传）
+clients/*
+!clients/example_brand_director/
+!clients/example_brand_director/**
+
+# 临时文件
+/tmp/
+*.pyc
+__pycache__/
+.DS_Store
+another/
+
+# 用户数据
+knowledge/
+*.db
+*.sqlite
+*.mbox
+*.eml
+
+# IDE
+.vscode/
+.idea/
+
+# 环境
+.env
+venv/
